@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- I-Schedule text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-light"
+            android:text="I-Schedule"
+            android:textSize="32sp" />
+
+        <!-- First name -->
+
+        <!-- First name field-->
+        <EditText
+            android:id="@+id/firstnameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:hint="Enter your first name"
+            android:inputType="textPersonName" />
+
+        <!-- Last Name -->
+        <!-- last name field -->
+        <EditText
+            android:id="@+id/lastnameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:hint="Enter your last name"
+            android:inputType="textPersonName" />
+
+        <!-- Email label -->
+
+        <!-- Email input field -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress" />
+
+        <!-- Password label -->
+
+        <!-- Password input field -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:hint="Enter your password"
+            android:inputType="textPassword" />
+
+        <!-- Login button -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="32dp"
+            android:text="Login" />
+
+        <!-- Signup button -->
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="341dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="16dp"
+            android:text="Signup" />
+    </LinearLayout>
+
+</ScrollView>

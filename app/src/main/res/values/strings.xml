@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">I-Schedule</string>
+    <string name="add_server">Add server</string>
+    <string name="profile_picture">Profile picture</string>
+</resources>
