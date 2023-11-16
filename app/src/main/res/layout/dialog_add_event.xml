@@ -9,13 +9,17 @@
         android:id="@+id/editTextDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Date" />
+        android:hint="Date"
+        android:focusable="false"
+        android:onClick="showDatePickerDialog" />
 
     <EditText
         android:id="@+id/editTextTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Time" />
+        android:hint="Time"
+        android:focusable="false"
+        android:onClick="showTimePickerDialog" />
 
     <EditText
         android:id="@+id/editTextLocation"
